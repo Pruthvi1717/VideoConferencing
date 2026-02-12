@@ -1,0 +1,161 @@
+
+.landingPageContainer{
+   width: 100vw;
+   height: 100vh;
+   color: white;
+   background: url("/public/background.png");
+   background-size: cover;
+}
+
+.landingPageContainer nav {
+    padding-inline: 1.2rem;
+    padding-block: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.landingPageContainer nav h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.landingPageContainer nav .navlist{
+
+     display: flex;
+     gap: 1.8rem;
+     cursor: pointer;
+
+}
+
+.landingMainContainer{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  height: 80vh;
+  align-items: center;
+}
+
+.landingMainContainer > div:nth-child(1){
+    font-size: 1.8rem;
+    
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button']{
+    background: #D97500;
+    width: fit-content;
+    padding: 0.6rem;
+    text-decoration: none;
+     border-radius: 10px;
+     margin-top: 1.2rem;
+}
+.landingMainContainer > div:nth-child(1) div[role='button'] a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+ 
+}
+
+.landingMainContainer > div:nth-child(2) img{
+     
+    height: 70vh;
+    width: auto;
+   
+}
+/* NAV LINKS */
+.navlist a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+/* Register link */
+.navlist .register-link {
+  opacity: 0.9;
+}
+
+.navlist .register-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Login / Dashboard button */
+.navlist .primary-btn {
+  background: #D97500;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.navlist .primary-btn:hover {
+  background: #f08c1a;
+}
+
+/* Logged-in user chip */
+.user-chip {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.user-chip span {
+  font-weight: 600;
+  color: #ffb454;
+}
+/* Logout button */
+.logout-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.logout-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Register button (outlined) */
+.register-btn {
+  text-decoration: none;
+  color: white;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  background: #f08c1a;
+}
+
+/* Join as Guest button */
+.guest-btn {
+  text-decoration: none;
+  color: white;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  border: 1px dashed rgba(255, 255, 255, 0.4);
+  transition: all 0.2s ease;
+}
+
+.guest-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+
+
+
+
+
+
+
+
