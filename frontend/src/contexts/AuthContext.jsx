@@ -7,7 +7,7 @@ export const AuthContext = createContext({});
 
 
 const client = axios.create({
-  baseURL: "http://localhost:5000/api/v1/users",
+  baseURL: "https://videoconferencing-zcql.onrender.com/api/v1/users",
 });
 
 export const AuthProvider = ({ children }) => {

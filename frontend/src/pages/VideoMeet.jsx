@@ -3,7 +3,7 @@ import Badge from "@mui/material/Badge";
 import io from 'socket.io-client';
 import "./VideoMeet.css";
 
-const server_url = "http://localhost:5000";
+const server_url = "https://videoconferencing-zcql.onrender.com";
 
 const peerConfigConnections = {
     iceServers: [
