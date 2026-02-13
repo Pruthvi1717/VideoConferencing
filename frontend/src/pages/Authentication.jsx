@@ -91,7 +91,7 @@ export default function Authentication() {
                             <label>Full Name</label>
                             <input
                                 type="text"
-                                placeholder="John Doe"
+                                placeholder="Enter the name"
                                 value={name}
                                 onChange={e => setName(e.target.value)}
                                 onKeyDown={handleKeyDown}
